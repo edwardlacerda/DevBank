@@ -32,3 +32,20 @@ O projeto é composto pelos seguintes arquivos:
 2. Abra o arquivo index.html em seu navegador para visualizar o site.
 
 ## Capturas de Tela
+Tela Inicial: 
+
+<div align="center">
+  <img src="/to_readme/assets/devBank-index.gif">
+</div>
+
+Tela de Empréstimos:
+
+<div align="center">
+  <img src="/to_readme/assets/tab-emprestimos.gif">
+</div>
+
+Tela de Cadastro de Clientes:
+
+<div align="center">
+  <img src="/to_readme/assets/cadastro.gif">
+</div>
