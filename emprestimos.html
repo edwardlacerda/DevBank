@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/devBank-icon.png" type="image/x-icon" />
+    <title>Dev Bank Empréstimos</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/devBank-logo.png" class="logo" />
+    </header>
+
+    <div class="menu-container">
+      <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="emprestimos.html">Empréstimos</a>
+        <a href="">Financiamentos</a>
+        <a href="">Antecipação</a>
+        <a href="sejaNossoCliente.html">Seja Nosso Cliente</a>
+      </nav>
+
+      <section class="content">
+        <h1 class="title">Empréstimos</h1>
+        <div class="cards-container">
+          <div class="lcards">
+            <h3 class="cards-title">Pessoal</h3>
+            <img src="img/pessoal.png" width="100%" alt="img-pessoal" />
+            <p>
+              O empréstimo pessoal é uma solução financeira prática e flexível
+              para quem precisa de dinheiro rápido e sem complicações. Com ele,
+              você pode obter crédito para diversas finalidades, como pagar
+              dívidas, fazer uma viagem, reformar a casa ou realizar um projeto
+              pessoal. O processo de solicitação é simples e rápido, com menos
+              burocracia e sem a necessidade de justificar o uso do dinheiro.
+              Oferecemos condições especiais, taxas de juros competitivas e
+              prazos de pagamento que cabem no seu bolso. Aproveite agora mesmo
+              e conquiste seus objetivos com nosso empréstimo pessoal.
+            </p>
+          </div>
+
+          <div class="lcards">
+            <h3 class="cards-title">Consignado</h3>
+            <img
+              src="img/consignado-img.png"
+              width="100%"
+              alt="img-consignado"
+            />
+            <p>
+              O empréstimo consignado é a opção ideal para quem busca condições
+              de crédito mais vantajosas. Disponível para aposentados,
+              pensionistas do INSS, servidores públicos e trabalhadores de
+              empresas privadas conveniadas, este tipo de empréstimo oferece
+              taxas de juros mais baixas e prazos mais longos para pagamento. O
+              valor das parcelas é descontado diretamente da folha de pagamento
+              ou benefício, garantindo maior segurança tanto para o cliente
+              quanto para a instituição financeira. Com o empréstimo consignado,
+              você pode planejar seu futuro com tranquilidade e aproveitar as
+              melhores condições de crédito do mercado.
+            </p>
+          </div>
+        </div>
+
+        <h2 class="title">Simulação de Empréstimos</h2>
+        <form class="simulation-form">
+          <label for="tipo-emprestimo">Tipo de Empréstimo:</label>
+          <select name="Tipo de Empréstimo" id="tipo-emprestimo">
+            <option value="Pessoal">Pessoal</option>
+            <option value="Consignado">Consignado</option>
+          </select>
+          <br />
+          <label for="valor-desejado">Valor desejado</label>
+          <input type="number" name="Valor" id="valor-desejado" />
+          <br />
+          <label for="meses-pagamento">Meses para pagamento</label>
+          <input type="number" name="parcelas" id="meses-pagamento" />
+          <br />
+          <button type="button">Calcular parcelas</button>
+          <br />
+          <label for="valor-parcela">Valor da parcela</label>
+          <input
+            type="number"
+            name="valor-parcela"
+            id="valor-parcela"
+            readonly
+          />
+          <br />
+          <input type="submit" value="Seja Nosso Cliente" />
+        </form>
+
+        <div>
+          <h2 class="titleFaq">Perguntas Frequentes</h2>
+          <div class="faq">
+            <h3 class="question">
+              Qual a diferença entre empréstimo pessoal e empréstimo consignado?
+            </h3>
+            <p>
+              A principal diferença entre o empréstimo pessoal e o consignado
+              está na forma de pagamento e nas condições de crédito. <br />
+              <br />
+              Empréstimo Pessoal: não exige justificativa de uso e oferece maior
+              flexibilidade. As parcelas são pagas mensalmente via boleto
+              bancário ou débito em conta, com taxas de juros geralmente mais
+              altas devido ao maior risco para o banco. <br />
+              <br />
+              Empréstimo Consignado: Disponível para aposentados, pensionistas,
+              servidores públicos e trabalhadores de empresas conveniadas. As
+              parcelas são descontadas diretamente da folha de pagamento ou
+              benefício, resultando em taxas de juros mais baixas e melhores
+              condições de pagamento, já que o risco de inadimplência é menor.
+            </p>
+            <br />
+            <h3 class="question">
+              O que acontece se eu atrasar o pagamento das parcelas do meu
+              empréstimo?
+            </h3>
+            <p>
+              Atrasar o pagamento das parcelas do seu empréstimo pode trazer
+              diversas consequências, incluindo: <br />
+              Multa e Juros de Mora: Você será cobrado com multas e juros pelo
+              atraso, aumentando o valor total da dívida. <br />
+              Nome Negativado: Seu nome pode ser inscrito nos órgãos de proteção
+              ao crédito, como SPC e Serasa, dificultando futuras obtenções de
+              crédito. <br />Restrição de Crédito: Seu histórico de crédito será
+              prejudicado, tornando mais difícil a aprovação de novos
+              empréstimos ou financiamentos. Para evitar esses problemas, é
+              importante manter o pagamento das parcelas em dia. Se você estiver
+              enfrentando dificuldades financeiras, entre em contato conosco
+              para negociar novas condições de pagamento.
+            </p>
+            <br />
+            <h3 class="question">
+              Quais são os requisitos para solicitar um empréstimo consignado?
+            </h3>
+            <p>
+              Para solicitar um empréstimo consignado, você precisa atender a
+              alguns requisitos básicos, os requisitos incluem: Ser aposentado ou
+              pensionista do INSS, servidor público, militar ou empregado de
+              empresa privada conveniada. Ter margem consignável disponível, ou
+              seja, parte do seu salário ou benefício deve estar disponível para
+              o desconto das parcelas.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-contacts">
+          <span class="header-footer">Contatos</span>
+          <ul>
+            <li><a href="tel:+55">11 3535-3535</a></li>
+            <li><a href="mailto:">faleconosco@devbank.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="img/instagram-icon.png" alt="instagram"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="img/facebook-icon.png" alt="facebook"
+          /></a>
+          <a href="https://x.com/" target="_blank"
+            ><img src="img/x-icon.png" alt="X"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

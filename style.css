@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "League Spartan", sans-serif;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(41, 41, 41)
+    ),
+    url("img/bg-cover.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(65, 105, 225);
+  color: white;
+  padding: 15px 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  height: 100px;
+}
+
+.menu-container {
+  display: flex;
+  flex: 1;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(113, 143, 233);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: fill;
+  min-height: 100vh;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.title {
+  padding-left: 150px;
+  margin: 30px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.img-cover {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 100px;
+  text-decoration: none;
+}
+
+.cards {
+  background-color: rgb(208, 218, 248);
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 30%;
+  min-width: 100px;
+  text-align: center;
+  font-size: large;
+  border-radius: 2%;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.cards:hover {
+  background-color: #4169e1;
+  color: #fff;
+}
+
+.cards-title {
+  padding: 10px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 70px;
+  text-decoration: none;
+}
+
+.lcards {
+  background-color: rgb(208, 218, 248);
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 30%;
+  min-width: 100px;
+  text-align: center;
+  font-size: large;
+  border-radius: 2%;
+  color: black;
+  transition: background-color 0.3s ease;
+  /* transform: scale(0.7); */
+}
+
+.lcards-title {
+  padding: 10px;
+}
+
+.simulation-form {
+  background-color: #718fe9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 788px;
+  margin: 20px auto;
+  color: #ffffff;
+}
+
+.simulation-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.simulation-form select,
+.simulation-form input[type="number"],
+.simulation-form input[type="submit"],
+.simulation-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  font-size: medium;
+}
+
+.simulation-form select:focus,
+.simulation-form input[type="number"]:focus {
+  border-color: rgb(150, 160, 200);
+}
+
+.simulation-form button,
+.simulation-form input[type="submit"] {
+  background-color: rgb(150, 160, 200);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.simulation-form button:hover,
+.simulation-form input[type="submit"]:hover {
+  background-color: #4169e1;
+}
+
+.titleFaq {
+  text-align: center;
+  padding-right: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 50px;
+}
+.faq {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.question,
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.img-client {
+  border: 5px solid rgb(150, 160, 200);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.client-description {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #718fe9;
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto  ;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.1);
+}
+
+.client-form {
+  background-color: #718fe9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 788px;
+  margin: 20px auto;
+  color: #ffffff;
+  margin-bottom: 200px;
+}
+
+.client-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.client-form input[type="text"],
+.client-form input[type="date"],
+.client-form input[type="email"],
+.client-form input[type="tel"],
+.client-form input[type="password"],
+.client-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  font-size: medium;
+}
+
+.client-form input[type="text"]:focus,
+.client-form input[type="date"]:focus,
+.client-form input[type="email"]:focus,
+.client-form input[type="tel"]:focus,
+.client-form input[type="password"]:focus {
+  border-color: rgb(150, 160, 200);
+}
+
+.client-form input[type="submit"] {
+  background-color: rgb(150, 160, 200);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.client-form input[type="submit"]:hover {
+  background-color: #4169e1;
+}
+
+footer {
+  background-color: #4169e1;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-contacts {
+  flex: 1;
+}
+
+.header-footer {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+  color: #fff;
+}
+
+.footer-contacts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contacts ul li {
+  margin-bottom: 5px;
+}
+
+.footer-contacts ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-social {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-social a {
+  margin-left: 10px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+}
