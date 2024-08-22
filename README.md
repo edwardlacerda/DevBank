@@ -25,6 +25,10 @@ O projeto é composto pelos seguintes arquivos:
 
 ## Como Usar
 
+Acesse: https://edwardlacerda.github.io/DevBank/
+
+ou
+
 1. Clone este repositório para sua máquina local:
    
    git clone https://github.com/edwardlacerda/DevBank.git
